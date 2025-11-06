@@ -1,0 +1,85 @@
+<html>
+	<head>
+	<title>internal css</title>
+	<style>
+	   body{
+	        background-color:#d2b48c;
+			padding:35px;
+		}
+		h1{
+			  color:#b8860b;
+			  font-style:bold;
+			  font-size:40px;
+			  text-decoration:underline;
+			  font-family:cursive;
+	    }
+		table{
+	       border-collapse:collapse;
+		   width:40%;
+		 }
+        th,td{
+	       border:1px solid#ddd;
+		   padding:8px;
+		   text-align:left;
+		 }
+        th{
+	       background-color:#e3bc9a;
+		   color:blue;
+	     }
+        tr:nth-child(even){
+	                     background-color:#ccb3a3 ;
+					  }
+	    tr:hover{
+	          background-color:brown;
+			}
+		
+		
+				
+    </style>
+	<link rel="stylesheet"href="stylesheet.css">
+	</head>
+	<body>
+	<h1>OSCAR</h1>
+	<p style="color:#FFE4C4;font-family:times new roman;">The Oscars, officially the Academy Awards, are a prestigious set of awards presented annually by the Academy of Motion Picture Arts and Sciences (AMPAS) for excellence in cinematic achievements. The awards recognize accomplishments in filmmaking disciplines such as acting, directing, writing, and cinematography, and are widely considered the highest honor in the film industry. The first ceremony was held on May 16, 1929.</p>
+	<ol>
+	<li>2024 best film</li>
+	<li>best actress</li>
+	<li>best actor</li>
+	</ol>
+	<ul>
+	<li>Oppenheimer</li>
+	<li>Cillian Murphy</li>
+	<li>Emma stone</li>
+	</ul>
+	<dl>
+	<dt>Oppenheimer</dt>
+	<dd>Oppenheimer is a 2023 epic biographical thriller film written, co-produced, and directed by Christopher Nolan.[8] It follows the life of J. Robert Oppenheimer, the American theoretical physicist who helped develop the first nuclear weapons during World War II. Based on the 2005 biography American Prometheus by Kai Bird and Martin J. Sherwin, the film dramatizes Oppenheimer's studies, his direction of the Los Alamos Laboratory and his 1954 security hearing. Cillian Murphy stars as Oppenheimer, alongside Robert Downey Jr. as the United States Atomic Energy Commission member Lewis Strauss. The ensemble supporting cast includes Emily Blunt, Matt Damon, Florence Pugh, Josh Hartnett, Casey Affleck, Rami Malek, and Kenneth Branagh.</dd>
+	</dl>
+	<table>
+    <thead>
+    <tr>
+      <th>reg no</th>
+      <th>Name</th>
+      <th>Marks</th>
+    </tr>
+    </thead>
+     <tbody>
+    <tr>
+        <td>6789</td>
+        <td>Haran</td>
+        <td>67</td>
+    </tr>   
+    <tr>
+   <td>4769</td>
+   <td>Shyam</td>
+   <td>68</td>
+</tr>  
+    <tr>
+       <td>3456</td>
+       <td>Rahul</td>
+       <td>95</td>
+    </tr> 
+</tbody>
+</table>
+</body>
+</html>
