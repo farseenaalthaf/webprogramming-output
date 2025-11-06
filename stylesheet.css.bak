@@ -1,0 +1,11 @@
+dl{
+		     color:#B8860B;
+			 font-style:bold;
+			 font-size:15px;
+			 font-family:times new roman;
+		  }
+dt{
+	       color:#FFE4C4;
+		   font-family:verdana;
+		   font-size:30px;
+          }    
