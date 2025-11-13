@@ -1,0 +1,80 @@
+<html>
+<head>
+<style>
+#one{
+  margin-left:10px;
+  }
+#two{
+  margin-left:10px;
+  } 
+#three{
+  margin-left:10px;
+  }
+#four{
+  margin-left:10px;
+  }
+#five{
+  margin-left:10px;
+  }
+#six{
+  margin-left:10px;
+  }
+#seven{
+  margin-left:10px;
+  }
+</style><cener>
+<body bgcolor="#c8c7d7"><center>
+<h1><b>Registration Form</b></h1></center>
+<form>
+<label>Name</label>
+<input type="text"name="textbox" id="one">
+<br>
+<label>Password</label>
+<input type="password"name="passsword" id="two">
+<br>
+<label>Address</label>
+<textarea name="address" rows="2" cols="40" maxlength="500" id="three">
+</textarea>
+<br>
+<label>Mobile</label>
+<input type="number"name="mobile" id="four">
+<br>
+<label>Email</label>
+<input type="text"name="email" id="five">
+<br>
+<label>DOB</label>
+<input type="date" name="date" id="six">
+<br>
+<label>Gender</label>
+<input type="radio"name="gender"value="female">
+<label>Female</label>
+<input type="radio"name="gender"value="male">
+<label>Male</label>
+<input type="radio"name="gender"value="others">
+<label>Others</label>
+<br>
+<label>Nationality</label>
+<select name="nationality" id="seven">
+<option value="indian">Indian</option>
+<option value="pakistani">Pakistani</option>
+<option value="american">American</option>
+<option value="palestini">Palestini</option></select>
+<br>
+<fieldset>
+<legend>Languages known</legend><br><br>
+<input type="checkbox"name="malayalam">
+<label>Malayalam</label><br>
+<input type="checkbox"name="english">
+<label>English</label><br>
+<input type="checkbox"name="hindi">
+<label>Hindi</label><br>
+</fieldset>
+<br>
+<center>
+<input type="submit" value="Submit">
+<button type="reset"><b>cancel<b></button></center>
+<br><br>
+</form>
+</center>
+</body>
+</html>
